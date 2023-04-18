@@ -1,0 +1,126 @@
+.App {
+  background-color: "#DDDDDD";
+}
+
+/* fieldset {
+  margin: 0 0 30px 0;
+  border: 1px solid #ccc;
+}
+
+input {
+  margin: 0.4rem;
+} */
+
+.custom-field {
+  border: 1px solid;
+  border-top: none;
+  margin: 12px 2px;
+  padding: 8px;
+}
+.note {
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 260px;
+
+  height: 50%;
+  justify-content: center;
+  vertical-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.notitit {
+  padding-top: 50px;
+  color: #495579;
+}
+.maxi {
+  height: 20px;
+}
+.custom-field.first {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.custom-field.second {
+  width: 100%;
+}
+.custom-field.third {
+  width: 100%;
+}
+.table_container {
+  overflow-y: scroll;
+}
+.table {
+  overflow-y: scroll;
+  background-color: white;
+}
+.btn.btn-light {
+  padding: 0px;
+  font-size: 9px;
+  background-color: #dddddd;
+  border-color: #dddddd;
+}
+/* Defining the style of the
+heading/legend for custom fieldset */
+.custom-field h6 {
+  font: 16px normal;
+  margin: -16px -8px 0;
+}
+
+.checkbox-inline {
+  margin-right: 6px;
+}
+.checkinp {
+  margin-right: 4px;
+}
+/* Using float:left allows us to mimic
+the legend like fieldset. The
+float:right property can also be
+used to show the legend on right side */
+
+.custom-field h6 span {
+  float: left;
+}
+
+/* Creating the custom top border to make
+  it look like fieldset defining small
+  border before the legend. The width
+  can be modified to change position
+  of the legend */
+.custom-field h6:before {
+  border-top: 1px solid;
+  content: " ";
+  float: left;
+  margin: 8px 2px 0 -1px;
+  width: 12px;
+}
+
+/* Defining a long border after the
+legend, using overflow hidden to
+actually hide the line behind the
+legend text. It can be removed
+for a different effect */
+.custom-field h6:after {
+  border-top: 1px solid;
+  content: " ";
+  display: block;
+  height: 24px;
+  left: 2px;
+  margin: 0 1px 0 0;
+  overflow: hidden;
+  position: relative;
+  top: 8px;
+}
+.col.one {
+  width: 20%;
+}
+.side {
+  display: inline-block;
+
+  text-align: right;
+}
+.container.main {
+  width: 100%;
+  margin: auto;
+  background-color: "#DDDDDD";
+}
